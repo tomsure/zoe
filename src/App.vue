@@ -1,6 +1,7 @@
 <template>
   <div>
     <myHeader></myHeader>
+    
     <myFooter></myFooter>
   </div>
 </template>
