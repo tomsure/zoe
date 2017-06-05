@@ -1,12 +1,12 @@
 <template lang="html">
-  <header style="background:blue;margin-top:200px;height:200px;text-align:center">
+  <footer style="background:blue;height:200px;text-align:center">
         this is footer
-  </header>
+  </footer>
 </template>
 
 <script>
 export default {
-
+  name:'myFooter'
 }
 </script>
 
