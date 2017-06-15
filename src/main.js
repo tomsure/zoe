@@ -3,8 +3,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-// import myHeader from './components/header/my-header'
-// import myFooter from './components/footer/my-footer'
+import $ from 'jquery'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -16,3 +15,20 @@ new Vue({
     App
   }
 })
+$.ajax({
+  type: "get",
+  async: false,
+  url: "http://s.music.163.com/search/get",
+  data: {
+    type: 1,
+    s: '喜欢你',
+    limit: 10
+  },
+  dataType: "jsonp",
+  success: function(data) {
+    console.log(data)
+  },
+  error: function() {
+    alert('fail');
+  }
+});

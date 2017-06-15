@@ -1,24 +1,29 @@
 <template>
   <div>
-    <myHeader></myHeader>
-    
-    <myFooter></myFooter>
+    <div id="box">
+        
+    </div>
+    <Index></Index>
   </div>
 </template>
 
 <script>
-import myHeader from './components/header/my-header'
-import myFooter from './components/footer/my-footer'
+import Index from './pages/index';
+
 export default{
   name:'App',
   components:{
-    myHeader,
-    myFooter
+    Index
   }
 }
 </script>
 
-<style>
+<style scss>
+#box{
+  background: #ff0000;
+  height: 100px;
+  width: 100px;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
