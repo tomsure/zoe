@@ -3,7 +3,7 @@
     animation: fadeInDown 1s ease-out .8s both;
 }
 #page01 .one_title_zjl,#firstPage .one_title_zjl{
-    animation: flipInY 1s ease-out .5s both;
+    animation: zoomInDown 1s ease-out .2s both;
 }
 #page01 .info-2016,#firstPage .info-2016{
     animation: fadeInDown 1s ease-out 1.3s both;
