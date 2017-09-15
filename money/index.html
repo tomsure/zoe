@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>邀请函</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/Swiper/3.4.2/css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/ani.css">
+
 </head>
 <script>
     //REM适配
     (function (doc, win) {
         var docEl = doc.documentElement,
-                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-                recalc = function () {
-                    var clientWidth = docEl.clientWidth;
-                    if (!clientWidth) return;
-                    if(clientWidth>=640){
-                        docEl.style.fontSize = '100px';
-                    }else{
-                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-                    }
-                };
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if (clientWidth >= 640) {
+                    docEl.style.fontSize = '100px';
+                } else {
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
 
         if (!doc.addEventListener) return;
         win.addEventListener(resizeEvt, recalc, false);
         doc.addEventListener('DOMContentLoaded', recalc, false);
     })(document, window);
+
 </script>
+<style>
+
+</style>
+
 <body>
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+
+            <div class="swiper-slide" id="firstPage">
                 <div class="one">
                     <img src="image/logo.png">
-                    <img src="image/one_title.png">
-                    <p class="info info-2016">2016年，东风日产正式发布面向2022年的品质中期战略<span class="redBold">[Q]+</span>,明确了达成一流品质的核心战略方案——“<span class="redBold">两突破</span>”、“<span class="redBold">两强化</span>”。</p>
-                    <p class="info info-2017">2017年，东风日产讲正式践行“两突破”、“两强化”的战略方针，以品质推动品牌魅力，向<span class="redBold">一流品质</span>的目标迈进</p>
+                    <img class="one_title_zjl bgOpcity" src="image/one_title.png">
+                    <p class="info info-2016 bgOpcity">2016年，东风日产正式发布面向2022年的品质中期战略<span class="redBold">[Q]+</span>,明确了达成一流品质的核心战略方案——“<span class="redBold">两突破</span>”、“
+                        <span
+                            class="redBold">两强化</span>”。</p>
+                    <p class="info info-2017 bgOpcity">2017年，东风日产讲正式践行“两突破”、“两强化”的战略方针，以品质推动品牌魅力，向<span class="redBold">一流品质</span>的目标迈进</p>
                 </div>
             </div>
-
             <div class="swiper-slide">
                 <div class="two">
-                    <p class="title1">[Q]+战略及“两突破”、“两强化”方策回顾</p>
-                    <p class="title2"><span class="blue">品质愿景:</span>用品质感动生活</p>
-                    <p class="title3"><span class="blue">品质目标:</span>一流品质</p>
-                    <img class="house" src="image/house.jpg">
-                    <p class="house-title1">魅力品质</p>
-                    <p class="house-title2">
+                    <p class="title1 bgOpcity">[Q]+战略及“两突破”、“两强化”方策回顾</p>
+                    <p class="title2 bgOpcity"><span class="blue">品质愿景:</span>用品质感动生活</p>
+                    <p class="title3 bgOpcity"><span class="blue">品质目标:</span>一流品质</p>
+                    <img class="house bgOpcity" src="image/house_01.png">
+                    <img class="houseSun bgOpcity" src="image/sun.png">
+                    <img class="houseTitle bgOpcity" src="image/houseTitle.png">
+                    <p class="house-title1 bgOpcity">魅力品质</p>
+                    <p class="house-title2 bgOpcity">
                         <span>初期</br>品质</span>
                         <span class="margin26">耐久</br>品质</span>
                         <span class="margin26">销售</br>品质</span>
                         <span class="margin26">服务</br>品质</span>
                     </p>
-                    <p class="house-title3">企业体系/标准/工具</p>
-                    <p class="house-title4">能力、经验</p>
-                    <p class="house-title5">品质文化、品质意识</p>
-                    <img class="titleImg" src="image/two_bg2.jpg">
+                    <p class="house-title3 bgOpcity">企业体系/标准/工具</p>
+                    <p class="house-title4 bgOpcity">能力、经验</p>
+                    <p class="house-title5 bgOpcity">品质文化、品质意识</p>
+                    <img class="titleImg bgOpcity" src="image/two_bg2.jpg">
                     <div class="two_bg">
-                        <p class="unscramble">
+                        <p class="unscramble unscramble1 bgOpcity">
                             <span class="bgRed"><b class="numBold">1</b>个愿景</span>
                             <span class="bgCCC">用品质感动生活</span>
                         </p>
-                        <p class="unscramble">
+                        <p class="unscramble unscramble2 bgOpcity">
                             <span class="bgRed"><b class="numBold">2</b>大目标</span>
                             <span class="bgCCC">一流品质、达成行业TOP3</span>
                         </p>
-                        <p class="unscramble">
+                        <p class="unscramble unscramble3 bgOpcity">
                             <span class="bgRed"><b class="numBold">3</b>层基础</span>
                             <span class="bgCCC">1）体系+标准 2）能力+经验 3）文化+意识</span>
                         </p>
-                        <p class="unscramble">
+                        <p class="unscramble unscramble4 bgOpcity">
                             <span class="bgRed"><b class="numBold">4</b>根支柱</span>
                             <span class="bgCCC">1）初期品质 2）耐久品质 3）销售品质 4）服务品质</span>
                         </p>
-                        <p class="unscramble">
+                        <p class="unscramble unscramble5 bgOpcity">
                             <span class="bgRed">第<b class="numBold">5</b>品质</span>
                             <span class="bgCCC">魅力品质=初期品质+耐久品质+销售品质+服务品质</span>
                         </p>
-                        <p class="unscramble">
+                        <p class="unscramble unscramble6 bgOpcity">
                             <span class="bgRed"><b class="numBold">6</b>项方案</span>
                             <span class="bgCCC">用品质感动生活</span>
                         </p>
@@ -96,26 +109,77 @@
 
             <div class="swiper-slide">
                 <div class="three">
-                    <img class="three-title1" src="image/three_title.jpg">
-                    <img class="three-title2" src="image/three_bt2.jpg">
-                    <img class="three-title3" src="image/three_bt3.jpg">
-                    <img class="three-tu" src="image/three_tu.jpg">
+                    <img class="three-title1" src="image/three_title.png">
+                    <img class="three-title2" src="image/three_bt2.png">
+                    <img class="three-title3" src="image/three_bt3.png">
+                    <img class="three-tu" src="image/three_tu.png">
 
                     <div class="flex-start marginT45">
                         <img class="three-tu2" src="image/three_tu2.jpg"></span>
-                        <img class="three-tu3"  src="image/three_tu3.jpg"></span>
+                        <img class="three-tu3 zjlTu3" src="image/three_tu3.jpg"></span>
                     </div>
-                    <img class="three_title4" src="image/three_title2.jpg"></span>
-                    <img class="three-tu4" src="image/three_tu4.jpg"></span>
+                    <img class="three_title4 zjlTitle4" src="image/three_title2.png"></span>
+                    <img class="three-tu4" src="image/three_tu4.png"></span>
                 </div>
             </div>
 
             <div class="swiper-slide">
-                <div>4</div>
+                <div class="four">
+                    <img class="four-bt1 bgOpcity" src="image/four_bt1.png">
+                    <div>
+                        <div class="flex-start position position1">
+                            <img class="circularL circularL1" src="image/four_yuan1.png" alt="" />
+                            <img class="unMarginL40 square1" src="image/four_fang1.png" alt="" />
+                        </div>
+                        <div class="flex-start position position2">
+                            <img class="circularL circularL2" src="image/four_yuan2.png" alt="" />
+                            <img class="unMarginL40 square2" src="image/four_fang2.png" alt="" />
+                        </div>
+                        <div class="flex-start position position3">
+                            <img class="circularL circularL3" src="image/four_yuan3.png" alt="" />
+                            <img class="unMarginL40 square3" src="image/four_fang3.png" alt="" />
+                        </div>
+                        <div class="flex-start position position4">
+                            <img class="square4" src="image/four_fang4.png" alt="" />
+                            <img class="unMarginL30 circularR circularR1" src="image/four_yuan4.png" alt="" />
+                        </div>
+                        <div class="flex-start position position5">
+                            <img class="square5" src="image/four_fang5.png" alt="" />
+                            <img class="unMarginL30 circularR circularR2" src="image/four_yuan5.png" alt="" />
+                        </div>
+                        <div class="flex-start position position6">
+                            <img class="square6" src="image/four_fang6.png" alt="" />
+                            <img class="unMarginL30 circularR circularR3" src="image/four_yuan6.png" alt="" />
+                        </div>
+                        <div class="flex-start position position7">
+                            <img class="square7" src="image/four_fang7.png" alt="" />
+                            <img class="unMarginL30 circularR circularR4" src="image/four_yuan7.png" alt="" />
+                        </div>
+                        <div class="flex-start position position8">
+                            <img class="square8" src="image/four_fang8.png" alt="" />
+                            <img class="unMarginL30 circularR circularR5" src="image/four_yuan8.png" alt="" />
+                        </div>
+                        <img class="four-bi" src="image/four_bi.png" alt="" />
+                        <img class="four-bg2" src="image/four_bg2.png" alt="" />
+                    </div>
+
+                </div>
             </div>
 
             <div class="swiper-slide">
-                <div>5</div>
+                <div class="five">
+                    <img class="five_title1" src="image/five_title.png">
+                    <img class="position five_1" src="image/five_1.png">
+                    <img class="position five_2" src="image/five_2.png">
+                    <img class="position five_3" src="image/five_3.png">
+                    <img class="position five_4" src="image/five_4.png">
+                    <img class="position five_5" src="image/five_5.png">
+                    <img class="five_6" src="image/five_6.png">
+                    <div class="flex-start marginAuto">
+                        <img class="five_7" src="image/five_7.png">
+                        <img class="five_8" src="image/five_8.png">
+                    </div>
+                </div>
             </div>
 
             <div class="swiper-slide">
@@ -123,24 +187,52 @@
             </div>
         </div>
     </div>
-
+    <img class="arrow" src="image/arrow.gif" alt="" style="display: inline;">
     <!-- Swiper JS -->
     <script type="text/javascript" src='js/jquery-1.8.3.min.js'></script>
     <script src="js/swiper.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        paginationClickable: true,
-        direction: 'vertical',
-        onSlideChangeEnd:function(swiper){
-            if(swiper.activeIndex==3){
-                $('#jt').hide();
-            }else{
-                $('#jt').show();
+        var swiper = new Swiper('.swiper-container', {
+            paginationClickable: true,
+            direction: 'vertical',
+            onTransitionEnd: function (swiper) {
+                var slides = swiper.slides,
+                    curIndex = swiper.activeIndex,
+                    total = slides.length,
+                    targetId = 'page0';
+                switch (curIndex) {
+                    case 0:
+                        targetId += 1;
+                        break;
+                    case 1:
+                        targetId += 2;
+                        break;
+                    case 2:
+                        targetId += 3;
+                        break;
+                    case 3:
+                        targetId += 4;
+                        break;
+                    case 4:
+                        targetId += 5;
+                        break;
+                    case 5:
+                        targetId += 6;
+                        break;
+
+                }
+                [].forEach.call(slides, function (item, index) {
+                    if (index == curIndex) {
+                        item.id = targetId
+                    } else {
+                        item.id = null
+                    }
+                })
             }
-        } 
-    });
+        });
     </script>
 </body>
+
 </html>

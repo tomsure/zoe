@@ -1,0 +1,148 @@
+/* page01 */
+#page01 .info-2017,#firstPage .info-2017{
+    animation: fadeInDown 1s ease-out .8s both;
+}
+#page01 .one_title_zjl,#firstPage .one_title_zjl{
+    animation: flipInY 1s ease-out .5s both;
+}
+#page01 .info-2016,#firstPage .info-2016{
+    animation: fadeInDown 1s ease-out 1.3s both;
+}
+/* page02 */
+#page02 .title1{
+    animation: fadeInDown 1s ease-out .3s both;
+}
+#page02 .title2{
+    animation: fadeInDown .8s ease-out .5s both;
+}
+#page02 .title3{
+    animation: fadeInDown .6s ease-out .7s both;
+}
+#page02 .house{
+    animation: bounceInDown 1s ease-out 3.5s both;
+}
+#page02 .houseSun{
+    animation: rotateIn   5s both;
+}
+#page02 .houseTitle{
+    animation: bounceInDown 1s ease-out .5s both;
+}
+#page02 .house-title1{
+    animation: bounceInDown 1s ease-out 3s both;
+}
+#page02 .house-title2{
+    animation: bounceInDown 1s ease-out 2.5s both;
+}
+#page02 .house-title3{
+    animation: bounceInDown 1s ease-out 2s both;
+}
+#page02 .house-title4{
+    animation: bounceInDown 1s ease-out 1.5s both;
+}
+#page02 .house-title5{
+    animation: bounceInDown 1s ease-out 1s both;
+}
+#page02 .titleImg{
+    animation: fadeInDown .5s ease-out 4s both;
+}
+#page02 .unscramble1{
+    animation: fadeInDown .5s ease-out 4.5s both;
+}
+#page02 .unscramble2{
+    animation: fadeInDown .5s ease-out 5s both;
+}
+#page02 .unscramble3{
+    animation: fadeInDown .5s ease-out 5.5s both;
+}
+#page02 .unscramble4{
+    animation: fadeInDown .5s ease-out 6s both;
+}
+#page02 .unscramble5{
+    animation: fadeInDown .5s ease-out 6.5s both;
+}
+#page02 .unscramble6{
+    animation: fadeInDown .5s ease-out 7s both;
+}
+
+/* pgae03 */
+#page03 .three-title1{
+    animation: fadeInDown 1s ease-out .5s both;
+}
+#page03 .three-title2{
+    animation: fadeInDown 1s ease-out 1s both;
+}
+#page03  .three-tu{
+    animation: fadeInLeft 1s ease-out 1.5s both;
+}
+#page03 .three-title3{
+    animation: fadeInDown 1s ease-out 2s both;
+}
+#page03 .flex-start .three-tu2{
+    animation: fadeInLeft 1s ease-out 3s both;
+}
+#page03 .flex-start .zjlTu3{
+    animation: fadeInLeft 1s ease-out 2.5s both;
+}
+#page03 .zjlTitle4{
+    animation: fadeInDown 1s ease-out 3.5s both;
+}
+#page03 .three-tu4{
+    animation: fadeInLeft 1s ease-out 4s both;
+}
+/* page04 */
+#page04 .four-bt1{
+    animation: fadeInDown .5s linear .5s both;
+}
+#page04 .circularL1{
+    animation: fadeInLeft .5s linear 1s both;
+}
+#page04 .square1{
+    animation: fadeInLeft .5s linear 1.3s both;
+}
+
+#page04 .circularR1{
+    animation: fadeInRight .5s linear 1.3s both;
+}
+#page04 .square4{
+    animation: fadeInRight .5s linear 1.6s both;
+}
+
+#page04 .circularL2{
+    animation: fadeInLeft .5s linear 1.5s both;
+}
+#page04 .square2{
+    animation: fadeInLeft .5s linear 1.8s both;
+}
+#page04 .circularR2{
+    animation: fadeInRight .5s linear 1.8s both;
+}
+#page04 .square5{
+    animation: fadeInRight .5s linear 2.1s both;
+}
+#page04 .circularL3{
+    animation: fadeInLeft .5s linear 2s both;
+}
+#page04 .square3{
+    animation: fadeInLeft .5s linear 2.1s both;
+}
+#page04 .circularR3{
+    animation: fadeInRight .5s linear 2.3s both;
+}
+#page04 .square6{
+    animation: fadeInRight .5s linear 2.6s both;
+}   
+#page04 .circularR4{
+    animation: fadeInRight .5s linear 2.8s both;
+}
+#page04 .square7{
+    animation: fadeInRight .5s linear 3.1s both;
+}   
+#page04 .circularR5{
+    animation: fadeInRight .5s linear 3.3s both;
+}
+#page04 .square8{
+    animation: fadeInRight .5s linear 3.4s both;
+}   
+#page04 .four-bg2{
+    animation: fadeInUp .5s linear 3.9s both;
+}

@@ -10,6 +10,37 @@ html, body {
     padding: 0;
 }
 
+/* zjl 透明 */
+.bgOpcity {
+    opacity: 0;
+}
+
+.bgDis {
+    display: none;
+}
+
+.three img {
+    opacity: 0;
+}
+
+.four img {
+    opacity: 0;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 6%;
+    left: 46%;
+    width: 6%;
+    height: 4%;
+    z-index: 99;
+    animation: arrowAni 2s infinite;
+    -webkit-animation: arrowAni 2s infinite;
+    -moz-animation: arrowAni 2s infinite;
+    -o-animation: arrowAni 2s infinite;
+    -ms-animation: arrowAni 2s infinite;
+}
+
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -35,36 +66,55 @@ html, body {
 }
 
 /*.swiper-slide img {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*display: block;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*display: block;*/
 /*}*/
 
 .blue {
     color: #112d81;
 }
+
 .redBold {
     font-size: 0.3rem;
     color: #e83820;
     font-weight: bold;
 }
+
 .numBold {
     font-size: 0.2rem;
     color: #eeea38;
     font-weight: bold;
 }
-.margin26  {
+
+.margin26 {
     margin-left: 0.28rem;
 }
+
 .marginL90 {
     padding-left: 0.9rem;
 }
+
 .marginR70 {
     padding-right: 0.7rem;
 }
+
 .marginT45 {
     margin-top: 0.45rem;
 }
+
+.unMarginL40 {
+    margin-left: -0.4rem;
+}
+
+.unMarginL30 {
+    margin-left: -0.35rem;
+}
+
+.marginAuto {
+    padding: 0 0.58rem;
+}
+
 .one, .two {
     width: 100%;
     height: 100%;
@@ -104,19 +154,23 @@ html, body {
     margin-top: 1.5rem;
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
+
 .two img {
-    width: 100%;
-    height: auto;
+    /*width: 100%;*/
+    /*height: auto;*/
     display: block;
 }
+
 .two .titleImg {
-    width: 1.54rem;
+    width: 1.95rem;
     height: 0.2rem;
     display: block;
     margin-top: 0.6rem;
     margin-left: 0.55rem;
 }
+
 .two .title1 {
     color: #e7141a;
     font-size: 0.34rem;
@@ -136,8 +190,25 @@ html, body {
 
 .two .house {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 6.38rem;
+    height: 1.12rem;
+    margin: 0.7rem auto 0;
+}
+
+.houseSun {
+    position: absolute;
+    top: 1.98rem;
+    right: 0.62rem;
+    width: 0.8rem;
+    height: 0.75rem;
+}
+
+.houseTitle {
+    position: absolute;
+    top: 2.28rem;
+    left: 0.6rem;
+    width: 1.54rem;
+    height: 0.2rem;
 }
 
 .house-title1 {
@@ -158,7 +229,7 @@ html, body {
     display: -ms-flexbox; /* TWEENER - IE 10 */
     display: -webkit-flex; /* NEW - Chrome */
     display: flex;
-    flex-direction : row;
+    flex-direction: row;
     width: 5rem;
 }
 
@@ -171,6 +242,7 @@ html, body {
     color: #1c499e;
     padding-top: 0.14rem;
 }
+
 .house-title3 {
     margin: 0 auto;
     width: 5.8rem;
@@ -181,6 +253,7 @@ html, body {
     text-align: center;
     line-height: 0.38rem;
 }
+
 .house-title4 {
     margin: 0 auto;
     width: 5.8rem;
@@ -191,6 +264,7 @@ html, body {
     text-align: center;
     line-height: 0.38rem;
 }
+
 .house-title5 {
     margin: 0 auto;
     width: 5.8rem;
@@ -201,6 +275,7 @@ html, body {
     text-align: center;
     line-height: 0.38rem;
 }
+
 .two_bg {
     margin-top: 0.16rem;
     /*padding: 0 0.7rem 0 0.9rem;*/
@@ -208,8 +283,10 @@ html, body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.two_bg span{
+
+.two_bg span {
 }
+
 .bgRed {
     display: inline-block;
     background: #e7141a;
@@ -219,6 +296,7 @@ html, body {
     font-size: 0.18rem;
     line-height: 0.36rem;
 }
+
 .bgCCC {
     display: inline-block;
     background: #ccc;
@@ -227,42 +305,48 @@ html, body {
     width: 4.72rem;
     height: 0.36rem;
     line-height: 0.36rem;
-    filter:alpha(opacity=50);
-    -moz-opacity:0.5;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
     -khtml-opacity: 0.5;
     opacity: 0.5;
     text-align: left;
 }
+
 .three {
     width: 100%;
     height: 100%;
     background-image: url(../image/two_bg4.jpg);
     background-size: 7.49rem 2.42rem;
-    background-position:0 8.45rem;
+    background-position: 0 8.45rem;
     background-repeat: no-repeat;
     padding-left: 0.57rem;
     position: relative;
 }
+
 .three img {
 
     display: block;
 }
+
 .three-title1 {
     width: 6.39rem;
     height: 1.2rem;
     margin-top: 1.5rem;
 
 }
+
 .three-title2 {
     width: 3.85rem;
     height: 0.49rem;
     margin-top: 0.43rem;
 }
+
 .three-title3 {
     width: 5.75rem;
     height: 0.8rem;
     margin-top: 1.2rem;
 }
+
 .three-tu {
     position: absolute;
     top: 2.95rem;
@@ -270,6 +354,7 @@ html, body {
     width: 1.86rem;
     height: 2.11rem;
 }
+
 .flex-start {
     display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
@@ -283,6 +368,7 @@ html, body {
     width: 3.44rem;
     height: 1.8rem;
 }
+
 .three-tu3 {
     width: 2.85rem;
     height: 1.8rem;
@@ -293,10 +379,212 @@ html, body {
     height: 0.84rem;
     margin-top: 1rem;
 }
+
 .three-tu4 {
     position: absolute;
     width: 2.38rem;
     height: 2.38rem;
     top: 8.4rem;
     right: 0.55rem;
+}
+
+.four {
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/four_bg.jpg);
+    background-size: 7.49rem 2.42rem;
+    background-position: 0 8.45rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.four img {
+    display: block;
+}
+
+.four-bt1 {
+    margin: 1.5rem 0 0 0.57rem;
+    width: 6.61rem;
+    height: 1.9rem;
+}
+
+.circularL {
+    width: 0.85rem;
+    height: 0.85rem;
+}
+
+.circularR {
+    width: 0.68rem;
+    height: 0.68rem;
+}
+
+.square1 {
+    width: 2.25rem;
+    height: 0.88rem;
+}
+
+.square2 {
+    width: 1.95rem;
+    height: 0.88rem;
+}
+
+.square3 {
+    width: 1.63rem;
+    height: 0.88rem;
+}
+
+.square4, .square5, .square6, .square7, .square8 {
+    height: 0.70rem;
+}
+
+.square4 {
+    width: 1.7rem;
+}
+
+.square5 {
+    width: 1.91rem;
+}
+
+.square6 {
+    width: 2.02rem;
+}
+
+.square7 {
+    width: 2.27rem;
+}
+
+.square8 {
+    width: 2.41rem;
+}
+
+.position {
+    position: absolute;
+}
+
+.position1 {
+    top: 4.14rem;
+    left: 1.98rem;
+}
+
+.position2 {
+    top: 5.78rem;
+    left: 1.28rem;
+}
+
+.position3 {
+    top: 7.44rem;
+    left: 0.6rem;
+}
+
+.position4 {
+    top: 4.72rem;
+    right: 0.58rem;
+}
+
+.position5 {
+    top: 5.71rem;
+    right: 0.98rem;
+}
+
+.position6 {
+    top: 6.7rem;
+    right: 1.39rem;
+}
+
+.position7 {
+    top: 7.7rem;
+    right: 1.74rem;
+}
+
+.position8 {
+    top: 8.67rem;
+    right: 2.22rem;
+}
+
+.four-bi {
+    position: absolute;
+    top: 3.94rem;
+    left: 1.6rem;
+    width: 3.99rem;
+    height: 6.11rem;
+}
+
+.four-bg2 {
+    position: absolute;
+    top: 9.4rem;
+    right: 0;
+    width: 2.6rem;
+    height: 0.87rem;
+}
+
+.five {
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/four_bg.jpg);
+    background-size: 7.49rem 2.42rem;
+    background-position: 0 8.45rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.five img {
+    display: block;
+}
+
+.five_title1 {
+    width: 6.4rem;
+    height: 1.28rem;
+    margin: 1.46rem 0 0 0.57rem;
+}
+
+.five_1 {
+    top: 3.34rem;
+    left: 0.87rem;
+    width: 4.15rem;
+    height: 1.23rem;
+}
+
+.five_2 {
+    top: 4.47rem;
+    left: 0.57rem;
+    width: 3.17rem;
+    height: 1.23rem;
+}
+
+.five_3 {
+    top: 5.6rem;
+    left: 1.13rem;
+    width: 2.84rem;
+    height: 1.25rem;
+}
+
+.five_4 {
+    top: 3.56rem;
+    right: 0.56rem;
+    width: 1.83rem;
+    height: 1.29rem;
+}
+
+.five_5 {
+    top: 5.05rem;
+    right: 1.5rem;
+    width: 1.81rem;
+    height: 1.30rem;
+}
+
+.five_6 {
+    margin: 4.63rem 0 0 0.57rem;
+    width: 4rem;
+    height: 0.4rem;
+}
+
+.five_7 {
+    width: 2.59rem;
+    height: 3.66rem;
+}
+
+.five_8 {
+    width: 2.76rem;
+    height: 3.66rem;
+    margin-left: 1rem;
 }
