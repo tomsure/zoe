@@ -174,3 +174,138 @@
 #page05 .five_8{
     animation: fadeInDown .5s ease-out 3.9s both;
 }
+/* 自定义旋转 */
+@keyframes rotateZjl {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+        transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+        transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+    61%{
+         -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes rotateZjl {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+        transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+        transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+       
+        
+    }
+    61%{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+.rotateZjl {
+    -webkit-animation-name: rotateZjl;
+    animation-name: rotateZjl;
+}
+/* page06 */
+#page06 .six_title1{
+    animation: fadeInDown .5s ease-out .5s both;
+}
+#page06 .six_yuan8{
+    animation: rotateZjl 1.5s linear .8s both;
+}
+#page06 .six_yuan{
+     animation: fadeIn .3s linear 2.4s both;
+}
+#page06 .six_yuan1{
+     animation: fadeIn .3s linear 2.5s both;
+}
+#page06 .six_yuan2{
+     animation: fadeIn .3s linear 2.7s both;
+}
+#page06 .six_yuan3{
+     animation: fadeIn .3s linear 2.9s both;
+}
+#page06 .six_yuan4{
+     animation: fadeIn .3s linear 3.1s both;
+}
+#page06 .six_yuan5{
+     animation: fadeIn .3s linear 3.3s both;
+}
+#page06 .six_yuan6{
+     animation: fadeIn .3s linear 3.5s both;
+}
+#page06 .six_yuan7{
+     animation: fadeIn .3s linear 3.7s both;
+}
+#page06 .six_title2{
+    animation: fadeInDown .5s ease-out 3.9s both;
+}
+#page06 .six_flower{
+    animation: fadeInDown .5s ease-out 4.1s both;   
+}
+#page06 .six_flower1{
+    animation: fadeIn .3s linear 4.3s both;   
+}
+#page06 .six_flower2{
+    animation: fadeIn .3s linear 4.5s both;   
+}
+#page06 .six_flower3{
+    animation: fadeIn .3s linear 4.7s both;   
+}
+#page06 .six_flower4{
+    animation: fadeIn .3s linear 4.9s both;   
+}
+#page06 .six_flower5{
+    animation: fadeIn .3s linear 5.1s both;   
+}
+#page06 .six_flower6{
+    animation: fadeIn .3s linear 5.3s both;   
+}
+#page06 .six_title3{
+    animation: fadeInDown .3s ease-out 5.5s both;   
+}
+#page06 .six_change{
+     animation: fadeIn .5s ease-out 4.3s both;   
+}
+#page06 .six_change1{
+    animation: fadeIn .3s linear 4.55s both;   
+}
+#page06 .six_change2{
+    animation: fadeIn .3s linear 4.8s both;   
+}
+#page06 .six_change3{
+    animation: fadeIn .3s linear 5.05s both;   
+}
+#page06 .six_change4{
+    animation: fadeIn .3s linear 5.3s both;   
+}
+#page06 .six_title4{
+    animation: fadeInDown .3s ease-out 5.5s both;   
+}
