@@ -607,3 +607,188 @@ html, body {
     height: 3.66rem;
     margin-left: 1rem;
 }
+.six {
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/four_bg.jpg);
+    background-size: 7.49rem 2.42rem;
+    background-position: 0 8.45rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.six img {
+    display: block;
+}
+.six_title1 {
+    width: 6.36rem;
+    height: 1.05rem;
+    margin: 1.5rem 0 0 0.6rem;
+}
+.six_yuan {
+    top: 3.57rem;
+    left: 2.9rem;
+    width: 1.83rem;
+    height: 1.83rem;
+    z-index: 3;
+}
+.six_yuan1 {
+    top: 2.5rem;
+    left: 3.32rem;
+    width: 0.97rem;
+    height: 1.99rem;
+    z-index: 2;
+}
+.six_yuan2 {
+    top: 3.08rem;
+    left: 3.83rem;
+    width: 1.68rem;
+    height: 1.42rem;
+    z-index: 2;
+}
+.six_yuan3 {
+    top: 4.37rem;
+    left: 3.8rem;
+    width: 1.94rem;
+    height: 0.97rem;
+    z-index: 2;
+}
+.six_yuan4 {
+    top: 4.5rem;
+    left: 3.8rem;
+    width: 1.15rem;
+    height: 1.86rem;
+    z-index: 2;
+}
+.six_yuan5 {
+    top: 4.5rem;
+    left: 2.67rem;
+    width: 1.16rem;
+    height: 1.86rem;
+    z-index: 2;
+}
+.six_yuan6 {
+    top: 4.37rem;
+    left: 1.84rem;
+    width: 1.97rem;
+    height: 0.98rem;
+    z-index: 2;
+}
+.six_yuan7 {
+    top: 3.08rem;
+    left: 2.12rem;
+    width: 1.71rem;
+    height: 1.43rem;
+    z-index: 2;
+}
+.six_yuan8 {
+    top: 2.83rem;
+    left: 2.12rem;
+    width: 3.43rem;
+    height: 3.43rem;
+    z-index: 1;
+}
+.six_title2 {
+    width: 1.37rem;
+    height: auto;
+    margin: 4.1rem 0 0 0.6rem;
+}
+.flower {
+    position: relative;
+    width: 100%;
+    margin-top: 0.6rem;
+}
+.six_flower1 {
+    top: 0;
+    left: 1.26rem;
+    width: 1.33rem;
+    height: 1.39rem;
+    z-index: 1;
+}
+.six_flower2 {
+    top: 0.4rem;
+    left: 1.8rem;
+    width: 1.37rem;
+    height: 1.07rem;
+    z-index: 1;
+}
+.six_flower3 {
+    top: 1.05rem;
+    left: 1.85rem;
+    width: 1.27rem;
+    height: 1.39rem;
+    z-index: 1;
+}
+.six_flower4 {
+    top: 1.34rem;
+    left: 1.17rem;
+    width: 1.33rem;
+    height: 1.39rem;
+    z-index: 1;
+}
+.six_flower5 {
+    top: 1.26rem;
+    left: 0.58rem;
+    width: 1.39rem;
+    height: 1.08rem;
+    z-index: 1;
+}
+.six_flower6 {
+    top: 0.32rem;
+    left: 0.66rem;
+    width: 1.23rem;
+    height: 1.35rem;
+    z-index: 1;
+}
+.six_flower {
+    top: 0.55rem;
+    left: 1.1rem;
+    width: 1.54rem;
+    height: 1.54rem;
+    z-index: 2;
+}
+.six_change {
+    top: 0.85rem;
+    right: 1.42rem;
+    width: 0.99rem;
+    height: 0.99rem;
+    z-index: 2;
+}
+.six_change1 {
+    top: 0;
+    right: 0.57rem;
+    width: 2rem;
+    height: 1.71rem;
+    z-index: 1;
+}
+.six_change2 {
+    top: 0.7rem;
+    right: 0.57rem;
+    width: 1.7rem;
+    height: 1.99rem;
+    z-index: 1;
+}
+.six_change3 {
+    top: 0.98rem;
+    right: 1.26rem;
+    width: 2.01rem;
+    height: 1.72rem;
+    z-index: 1;
+}
+.six_change4 {
+    top: 0;
+    right: 1.55rem;
+    width: 1.71rem;
+    height: 2rem;
+    z-index: 1;
+}
+.six_title3 {
+    top: 2.74rem;
+    left: 1.25rem;
+    width: 1.29rem;
+    height: auto;
+}.six_title4 {
+     top: 2.74rem;
+     right: 1.22rem;
+    width: 1.31rem;
+    height: auto;
+}
