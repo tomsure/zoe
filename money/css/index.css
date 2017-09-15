@@ -26,7 +26,9 @@ html, body {
 .four img {
     opacity: 0;
 }
-
+.five img{
+    opacity: 0;
+}
 .arrow {
     position: absolute;
     bottom: 6%;
@@ -39,6 +41,23 @@ html, body {
     -moz-animation: arrowAni 2s infinite;
     -o-animation: arrowAni 2s infinite;
     -ms-animation: arrowAni 2s infinite;
+}
+/*箭头动画*/
+@keyframes arrowAni {
+    0%{
+        bottom:6%;
+    }
+    100%{
+        bottom:4%;
+    }
+}
+@-webkit-keyframes arrowAni {
+    0%{
+        bottom:6%;
+    }
+    100%{
+        bottom:4%;
+    }
 }
 
 .swiper-container {

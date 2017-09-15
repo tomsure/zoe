@@ -146,3 +146,31 @@
 #page04 .four-bg2{
     animation: fadeInUp .5s linear 3.9s both;
 }
+/* page05 */
+#page05 .five_title1{
+    animation: fadeInDown .5s ease-out .5s both;
+}
+#page05 .five_4{
+    animation: fadeInLeft .5s ease-out 1s both;
+}
+#page05 .five_1{
+    animation: fadeInLeft .5s ease-out 1.2s both;
+}
+#page05 .five_5{
+    animation: fadeInLeft .5s ease-out 1.7s both;
+}
+#page05 .five_2{
+    animation: fadeInLeft .5s ease-out 1.9s both;
+}
+#page05 .five_3{
+    animation: fadeInLeft .5s ease-out 2.4s both;
+}
+#page05 .five_6{
+    animation: fadeInDown .5s ease-out 2.9s both;
+}
+#page05 .five_7{
+    animation: fadeInDown .5s ease-out 3.4s both;
+}
+#page05 .five_8{
+    animation: fadeInDown .5s ease-out 3.9s both;
+}
